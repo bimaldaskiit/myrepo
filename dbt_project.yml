@@ -40,5 +40,5 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
-      +schema: myschema
-      +database: mydb
+      +schema: {{ var('DBT_DB') }}
+      +database: {{ var('DBT_SCHEMA') }}
