@@ -40,5 +40,5 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
-      +schema: TEST
-      +database: TEST_SCHEMA
+      +schema: 'TEST_SCHEMA'
+      +database: 'TEST'
