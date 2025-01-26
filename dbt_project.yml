@@ -41,3 +41,6 @@ models:
     example:
       +materialized: table
       +database: 'TEST'
+    example1:
+      +materialized: table
+      +database: 'DB1'
